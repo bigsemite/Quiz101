@@ -1,0 +1,20 @@
+.bd{
+    background-color: red;
+    text-align: center;
+    padding: left 10;
+
+}
+
+.bd1{
+    background-color: rgb(79, 161, 233);
+    width: 80%;
+    height: 80%;
+    margin: 40;
+    text-align: center;
+    
+}
+.qu{
+    background-color: aqua;
+    color: black;
+    font-weight: bolder;
+}
