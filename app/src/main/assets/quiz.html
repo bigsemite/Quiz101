@@ -1,30 +1,29 @@
 <html>
-    <head>
+<head>
+<link href="Mycss.css" rel="stylesheet"/>
+<script src="Myscript.js"></script>
+<title>Quiz 101</title>
+</head>
+<body class ="b1" onload="loadPic()">
+<h1 style="color : white">Welcome to our quiz</h1>
+<div>
+<h2 id="score">Score = 0</h2><span ></span>
+</div>
+<div class="b2">
+<img  id="ourPic"/>
+<h2 id="result"></h2>
+<h2> What is this?</h2>
+<input type="radio" name="Question" id="ball" onclick='sol("ball")'>Ball</input>
+<input type="radio" name="Question" id="bird" onclick='sol("bird")'>Bird</input>
+<input type="radio" name="Question" id="baby" onclick='sol("baby")'>Baby</input>
+<input type="radio" name="Question" id="car" onclick='sol("car")'>Car</input>
+<input type="radio" name="Question" id="rat" onclick='sol("rat")'>Rat</input>
+<input type="radio" name="Question" id="dog" onclick='sol("dog")'>Dog</input>
+<input type="radio" name="Question" id="tree" onclick='sol("tree")'>Tree</input>
+<input type="radio" name="Question" id="cat" onclick='sol("cat")'>Cat</input>
+<input type="radio" name="Question" id="lion" onclick='sol("lion")'>Lion</input>
+<input type="radio" name="Question" id="fish" onclick='sol("fish")'>Fish</input>
+</div>
+</body>
 
-        <title>Quiz 101</title>
-        <link rel="stylesheet" href="quizStyle.css"/>
-        <script src="quizScript.js"></script>
-
-    </head>
-    <body class="bd" onload="loadGoods()">
-        <h1 style="color: white">Welcome to Our Quiz</h1>
-        
-        <h2 > Score:<span id="score">0</span></h2>
-        <div class="bd1">
-            <img width="70%" id="pic"/>
-            <h1 style="float:none;" id="correct"></h1>
-            <h3>What is this?</h3>
-            <div class="qu">
-                <input type="radio" name="question" onclick='solve("ball")'>Ball</input>
-                <input type="radio" name="question" onclick='solve("bird")'>Bird</input>
-                <input type="radio" name="question" onclick='solve("baby")'>Baby</input>
-                <input type="radio" name="question" onclick='solve("car")'>Car</input>
-                <input type="radio" name="question" onclick='solve("rat")'>Rat</input>
-                <input type="radio" name="question" onclick='solve("dog")'>Dog</input>
-                <input type="radio" name="question" onclick='solve("tree")'>Tree</input>
-
-                
-            </div>
-        </div>
-    </body>
 </html>

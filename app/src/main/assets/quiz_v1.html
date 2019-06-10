@@ -1,0 +1,30 @@
+<html>
+    <head>
+
+        <title>Quiz 101</title>
+        <link rel="stylesheet" href="quizStyle.css"/>
+        <script src="quizScript.js"></script>
+
+    </head>
+    <body class="bd" onload="loadGoods()">
+        <h1 style="color: white">Welcome to Our Quiz</h1>
+        
+        <h2 > Score:<span id="score">0</span></h2>
+        <div class="bd1">
+            <img width="70%" id="pic"/>
+            <h1 style="float:none;" id="correct"></h1>
+            <h3>What is this?</h3>
+            <div class="qu">
+                <input type="radio" name="question" onclick='solve("ball")'>Ball</input>
+                <input type="radio" name="question" onclick='solve("bird")'>Bird</input>
+                <input type="radio" name="question" onclick='solve("baby")'>Baby</input>
+                <input type="radio" name="question" onclick='solve("car")'>Car</input>
+                <input type="radio" name="question" onclick='solve("rat")'>Rat</input>
+                <input type="radio" name="question" onclick='solve("dog")'>Dog</input>
+                <input type="radio" name="question" onclick='solve("tree")'>Tree</input>
+
+                
+            </div>
+        </div>
+    </body>
+</html>
